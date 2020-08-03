@@ -10,7 +10,8 @@ import { GalleryPageComponent } from './gallery-page/gallery-page.component';
 import { HubblePageComponent } from './hubble-page/hubble-page.component';
 import { AboutPageComponent } from './about-page/about-page.component';
 import { LinkPageComponent } from './link-page/link-page.component';
-
+import { FlexLayoutModule } from '@angular/flex-layout';
+import {SentEmailComponent} from './sent-email/sent-email.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,11 +21,13 @@ import { LinkPageComponent } from './link-page/link-page.component';
     GalleryPageComponent,
     HubblePageComponent,
     AboutPageComponent,
-    LinkPageComponent
+    LinkPageComponent,
+    SentEmailComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]

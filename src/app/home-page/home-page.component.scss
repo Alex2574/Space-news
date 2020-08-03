@@ -1,0 +1,64 @@
+.page-component-news {
+    flex: 1;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.page-component-hubble {
+    flex-direction: column;
+    flex: 2;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    float: left;
+}
+
+.page-component-gallery {
+    flex-direction: column;
+    float: inherit;
+    flex: 2;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.page-component-about {
+    flex-direction: column;
+    float: left;
+    flex: 3;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.page-component-message {
+    display: table-caption;
+    flex-direction: column;
+    float: inherit;
+    flex: 3;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.page-component-link {
+    flex-direction: column;
+    float: right;
+    flex: 3;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+
+}
