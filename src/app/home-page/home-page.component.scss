@@ -1,64 +1,49 @@
-.page-component-news {
-    flex: 1;
+.home-style {
     align-content: center;
     justify-content: center;
     text-align: center;
     border: 1px solid black;
     border-radius: 20px;
 }
+
+.page-component-news {
+    @extend .home-style;
+    flex: 1;
+}
+
 .page-component-hubble {
-    flex-direction: column;
+    @extend .home-style;
     flex: 2;
-    align-content: center;
-    justify-content: center;
-    text-align: center;
-    border: 1px solid black;
-    border-radius: 20px;
     float: left;
+    flex-direction: column;
+
 }
 
 .page-component-gallery {
-    flex-direction: column;
-    float: inherit;
+    @extend .home-style;
     flex: 2;
-    align-content: center;
-    justify-content: center;
-    text-align: center;
-    border: 1px solid black;
-    border-radius: 20px;
+    float: inherit;
+    flex-direction: column;
 }
 
 .page-component-about {
-    flex-direction: column;
-    float: left;
+    @extend .home-style;
     flex: 3;
-    align-content: center;
-    justify-content: center;
-    text-align: center;
-    border: 1px solid black;
-    border-radius: 20px;
+    float: left;
+    flex-direction: column;
 }
 
 .page-component-message {
-    display: table-caption;
-    flex-direction: column;
-    float: inherit;
+    @extend .home-style;
     flex: 3;
-    align-content: center;
-    justify-content: center;
-    text-align: center;
-    border: 1px solid black;
-    border-radius: 20px;
+    float: inherit;
+    flex-direction: column;
+    display: table-caption;
 }
 
 .page-component-link {
-    flex-direction: column;
-    float: right;
+    @extend .home-style;
     flex: 3;
-    align-content: center;
-    justify-content: center;
-    text-align: center;
-    border: 1px solid black;
-    border-radius: 20px;
-
+    float: right;
+    flex-direction: column;
 }
