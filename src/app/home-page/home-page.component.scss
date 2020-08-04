@@ -1,0 +1,49 @@
+.home-style {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.page-component-news {
+    @extend .home-style;
+    flex: 1;
+}
+
+.page-component-hubble {
+    @extend .home-style;
+    flex: 2;
+    float: left;
+    flex-direction: column;
+
+}
+
+.page-component-gallery {
+    @extend .home-style;
+    flex: 2;
+    float: inherit;
+    flex-direction: column;
+}
+
+.page-component-about {
+    @extend .home-style;
+    flex: 3;
+    float: left;
+    flex-direction: column;
+}
+
+.page-component-message {
+    @extend .home-style;
+    flex: 3;
+    float: inherit;
+    flex-direction: column;
+    display: table-caption;
+}
+
+.page-component-link {
+    @extend .home-style;
+    flex: 3;
+    float: right;
+    flex-direction: column;
+}
