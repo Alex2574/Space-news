@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -11,7 +10,8 @@ import { HubblePageComponent } from './hubble-page/hubble-page.component';
 import { AboutPageComponent } from './about-page/about-page.component';
 import { LinkPageComponent } from './link-page/link-page.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
-import {SentEmailComponent} from './sent-email/sent-email.component';
+import { SentEmailComponent } from './sent-email/sent-email.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,14 +22,15 @@ import {SentEmailComponent} from './sent-email/sent-email.component';
     HubblePageComponent,
     AboutPageComponent,
     LinkPageComponent,
-    SentEmailComponent
+    SentEmailComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    AppRoutingModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
