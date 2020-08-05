@@ -10,10 +10,7 @@ import { SentEmailComponent } from './sent-email/sent-email.component';
 import { NavbarComponent } from './navbar/navbar.component';
 
 const routes: Routes = [
-  {
-    path: '',
-    component: NavbarComponent,
-  },
+  { path: '', component: NavbarComponent, },
   { path: '', redirectTo: '/', pathMatch: 'full' },
   { path: 'home', component: HomePageComponent },
   { path: 'about', component: AboutPageComponent },
