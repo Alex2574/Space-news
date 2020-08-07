@@ -7,10 +7,9 @@ import { HubblePageComponent } from './hubble-page/hubble-page.component';
 import { LinkPageComponent } from './link-page/link-page.component';
 import { NewsPageComponent } from './news-page/news-page.component';
 import { SentEmailComponent } from './sent-email/sent-email.component';
-import { NavbarComponent } from './navbar/navbar.component';
 
 const routes: Routes = [
-  { path: '', component: NavbarComponent, },
+  { path: '', component: HomePageComponent, },
   { path: '', redirectTo: '/', pathMatch: 'full' },
   { path: 'home', component: HomePageComponent },
   { path: 'about', component: AboutPageComponent },

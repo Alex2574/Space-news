@@ -11,6 +11,7 @@ import { AboutPageComponent } from './about-page/about-page.component';
 import { LinkPageComponent } from './link-page/link-page.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { SentEmailComponent } from './sent-email/sent-email.component';
+import { NewsContentComponent } from './news-page/news-content/news-content.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { SentEmailComponent } from './sent-email/sent-email.component';
     AboutPageComponent,
     LinkPageComponent,
     SentEmailComponent,
+    NewsContentComponent,
   ],
   imports: [
     BrowserModule,
