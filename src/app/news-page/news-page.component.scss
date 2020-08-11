@@ -1,5 +1,5 @@
 .carousel-item {
-  height: 32rem;
+  height: 40rem;
 }
 
 .carousel-item>img {
@@ -7,16 +7,12 @@
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 32rem;
+  height: 40rem;
 }
 
-.new {
-  display: flex;
-  flex-flow: inherit;
-  align-content: center;
-  justify-content: center;
-  text-align: center;
-}
-.form-search {
-  float: right;
+.news-text {
+  height: 25.8em;
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-align: justify;
 }

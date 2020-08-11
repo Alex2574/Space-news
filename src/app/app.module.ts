@@ -12,6 +12,16 @@ import { LinkPageComponent } from './link-page/link-page.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { SentEmailComponent } from './sent-email/sent-email.component';
 import { NewsContentComponent } from './news-page/news-content/news-content.component';
+import { News01Component } from './news-page/news-content/news01/news01.component';
+import { News02Component } from './news-page/news-content/news02/news02.component';
+import { News03Component } from './news-page/news-content/news03/news03.component';
+import { News04Component } from './news-page/news-content/news04/news04.component';
+import { News05Component } from './news-page/news-content/news05/news05.component';
+import { News06Component } from './news-page/news-content/news06/news06.component';
+import { News07Component } from './news-page/news-content/news07/news07.component';
+import { News08Component } from './news-page/news-content/news08/news08.component';
+import { News09Component } from './news-page/news-content/news09/news09.component';
+import { News10Component } from './news-page/news-content/news10/news10.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +35,16 @@ import { NewsContentComponent } from './news-page/news-content/news-content.comp
     LinkPageComponent,
     SentEmailComponent,
     NewsContentComponent,
+    News01Component,
+    News02Component,
+    News03Component,
+    News04Component,
+    News05Component,
+    News06Component,
+    News07Component,
+    News08Component,
+    News09Component,
+    News10Component,
   ],
   imports: [
     BrowserModule,
