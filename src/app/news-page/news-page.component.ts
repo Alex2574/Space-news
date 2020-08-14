@@ -5,12 +5,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./news-page.component.scss'],
 })
 
-
-
 export class NewsPageComponent implements OnInit {
-  // news: News[] = [];
 
-  constructor() {}
+  constructor() { }
 
-  ngOnInit(): void {}
+  ngOnInit(): void { }
 }
