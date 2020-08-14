@@ -8,7 +8,16 @@
 
 .page-component-news {
     @extend .home-style;
+    width: 50%;
+    height: 60rem;
     flex: 1;
+}
+
+.news-text {
+    height: 38.0em;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-align: justify;
 }
 
 .page-component-hubble {
@@ -16,7 +25,6 @@
     flex: 2;
     float: left;
     flex-direction: column;
-
 }
 
 .page-component-gallery {
