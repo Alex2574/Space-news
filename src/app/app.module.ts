@@ -22,6 +22,10 @@ import { News07Component } from './news-page/news-content/news07/news07.componen
 import { News08Component } from './news-page/news-content/news08/news08.component';
 import { News09Component } from './news-page/news-content/news09/news09.component';
 import { News10Component } from './news-page/news-content/news10/news10.component';
+import { ImageDetailComponent } from './image/image-detail.component';
+import { ImageService } from './image/shared/image.service';
+import { ImageFilterPipe } from './image/shared/filter.pipe';
+
 
 @NgModule({
   declarations: [
@@ -45,6 +49,8 @@ import { News10Component } from './news-page/news-content/news10/news10.componen
     News08Component,
     News09Component,
     News10Component,
+    ImageFilterPipe,
+    ImageDetailComponent,
   ],
   imports: [
     BrowserModule,
@@ -52,7 +58,7 @@ import { News10Component } from './news-page/news-content/news10/news10.componen
     FlexLayoutModule,
     AppRoutingModule,
   ],
-  providers: [],
+  providers: [ImageService, ImageFilterPipe],
   bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule { }
