@@ -1,53 +1,49 @@
-<div fxLayout="row" class="page-component-news">
-  <div class="col mb-4">
-    <div class="card h-100">
-      <img src="/assets/img/news01.jpg" class="card-img-top" style="height: 250px;" alt="..." />
-      <div class="card-body">
-        <p class="news-text">
-          <app-news01></app-news01>
-        </p>
+<div fxLayout="row">
+  <div>
+    <div class="page-component-news" fxLayoutAlign="start start">
+      <div class="col mb-3">
+        <div class="card h-100">
+          <img src="/assets/img/news01.jpg" class="card-img-top" style="height: 250px;" alt="..." />
+          <div class="card-body">
+            <p class="news-text">
+              <app-news01></app-news01>
+            </p>
+          </div>
+          <a routerLink="/news-content/news01" class="btn btn-primary">Read more</a>
+        </div>
       </div>
-      <a routerLink="/news-content/news01" class="btn btn-primary"
-        >Read more</a
-      >
+      <div class="col mb-3">
+        <div class="card h-100">
+          <img src="/assets/img/news02.jpg" style="height: 250px;" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="news-text">
+              <app-news02></app-news02>
+            </p>
+          </div>
+          <a routerLink="/news-content/news02" class="btn btn-primary">Read more</a>
+        </div>
+      </div>
+      <div class="col mb-3">
+        <div class="card h-100">
+          <img src="/assets/img/news03.jpg" style="height: 250px;" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="news-text">
+              <app-news03></app-news03>
+            </p>
+          </div>
+          <a routerLink="/news-content/news03" class="btn btn-primary">Read more</a>
+        </div>
+      </div>
     </div>
   </div>
-
-  <div class="col mb-4">
-    <div class="card h-100">
-      <img src="/assets/img/news02.jpg" style="height: 250px;" class="card-img-top" alt="..." />
-      <div class="card-body">
-        <p class="news-text">
-          <app-news02></app-news02>
-        </p>
-      </div>
-      <a routerLink="/news-content/news02" class="btn btn-primary"
-        >Read more</a
-      >
-    </div>
-  </div>
-  <div class="col mb-4">
-    <div class="card h-100">
-      <img src="/assets/img/news03.jpg" style="height: 250px;" class="card-img-top" alt="..." />
-      <div class="card-body">
-        <p class="news-text">
-          <app-news03></app-news03>
-        </p>
-      </div>
-      <a routerLink="/news-content/news03" class="btn btn-primary"
-        >Read more</a
-      >
-    </div>
-  </div>
+  <app-gallery-page class="page-component-gallery" fxFlex></app-gallery-page>
 </div>
+
 <div fxLayout="row">
   <app-hubble-page class="page-component-hubble"></app-hubble-page>
-  <app-gallery-page class="page-component-gallery"></app-gallery-page>
 </div>
 <div fxLayout="row">
   <app-about-page class="page-component-about" fxFlex="40"></app-about-page>
-  <app-sent-email class="page-component-message" fxFlex
-    >Write Email</app-sent-email
-  >
+  <app-sent-email class="page-component-message" fxFlex>Write Email</app-sent-email>
   <app-link-page class="page-component-link" fxFlex="40"></app-link-page>
 </div>

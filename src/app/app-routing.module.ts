@@ -18,6 +18,7 @@ import { News07Component } from './news-page/news-content/news07/news07.componen
 import { News08Component } from './news-page/news-content/news08/news08.component';
 import { News09Component } from './news-page/news-content/news09/news09.component';
 import { News10Component } from './news-page/news-content/news10/news10.component';
+import { ImageDetailComponent } from './image/image-detail.component';
 
 const routes: Routes = [
   { path: '', component: HomePageComponent },
@@ -25,6 +26,7 @@ const routes: Routes = [
   { path: 'home', component: HomePageComponent },
   { path: 'about', component: AboutPageComponent },
   { path: 'gallery', component: GalleryPageComponent },
+  { path: "image/:id", component: ImageDetailComponent },
   { path: 'hubble', component: HubblePageComponent },
   { path: 'link', component: LinkPageComponent },
   { path: 'news', component: NewsPageComponent },
