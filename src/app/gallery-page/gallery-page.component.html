@@ -1,10 +1,10 @@
 <h2>{{ title }}</h2>
 <div class="row">
-    <button class="btn btn-lg btn-info" [class.active]="filterBy=='all'" (click)="filterBy='all'">All</button>
-    <button class="btn btn-lg btn-info" [class.active]="filterBy=='galaxies'"
-        (click)="filterBy='galaxies'">Galaxies</button>
-    <button class="btn btn-lg btn-info" [class.active]="filterBy=='hubble'" (click)="filterBy='hubble'">Hubble</button>
-    <button class="btn btn-lg btn-info" [class.active]="filterBy=='milkyway'" (click)="filterBy='milkyway'">Milky
+    <button class="btn btn-lg btn-info" [class.active]="filterBy===FILTER.ALL" (click)="filterBy=FILTER.ALL">All</button>
+    <button class="btn btn-lg btn-info" [class.active]="filterBy===FILTER.GALAXIES"
+        (click)="filterBy=FILTER.GALAXIES">Galaxies</button>
+    <button class="btn btn-lg btn-info" [class.active]="filterBy===FILTER.HUBBLE" (click)="filterBy=FILTER.HUBBLE">Hubble</button>
+    <button class="btn btn-lg btn-info" [class.active]="filterBy===FILTER.MILKYWAY" (click)="filterBy=FILTER.MILKYWAY">Milky
         Way</button>
 </div>
 <ul class="thumbnailsList">

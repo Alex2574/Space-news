@@ -7,8 +7,8 @@ export class ImageService {
 		return this.visibleImages = IMAGES.slice(0);
 	}
 	getImage(id: number) {
-		return IMAGES.slice(0).find(image => image.id == id)
-	}
+		return IMAGES.slice(0).find(image => image.id === id)
+	};
 }
 
 const IMAGES = [
@@ -29,4 +29,4 @@ const IMAGES = [
 	{ "id": 15, "category": "milkyway", "caption": "My favorite pillow", "url": "assets/gallerry-photo/milky-way-photo/milkyway03.jpg" },
 	{ "id": 16, "category": "milkyway", "caption": "Books all over", "url": "assets/gallerry-photo/milky-way-photo/milkyway04.jpg" },
 	{ "id": 17, "category": "milkyway", "caption": "Books all over", "url": "assets/gallerry-photo/milky-way-photo/milkyway05.jpg" },
-]
+];
