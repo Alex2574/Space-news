@@ -6,17 +6,13 @@ import{FILTER} from 'src/app/constant'
 	templateUrl: './gallery-page.component.html',
 	styleUrls: ['./gallery-page.component.scss']
 })
-export class GalleryPageComponent implements OnChanges {
+export class GalleryPageComponent {
 	title = 'Space Photos'
 	@Input() filterBy?: string = FILTER.ALL;
 	visibleImages: any[] = [];
 	FILTER = FILTER;
 
 	constructor(private imageService: ImageService) {
-		this.visibleImages = this.imageService.getImages();
-	}
-
-	ngOnChanges() {
 		this.visibleImages = this.imageService.getImages();
 	}
 }
