@@ -25,7 +25,7 @@ import { News10Component } from './news-page/news-content/news10/news10.componen
 import { ImageDetailComponent } from './image/image-detail.component';
 import { ImageService } from './image/shared/image.service';
 import { ImageFilterPipe } from './image/shared/filter.pipe';
-
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -57,6 +57,7 @@ import { ImageFilterPipe } from './image/shared/filter.pipe';
     AppRoutingModule,
     FlexLayoutModule,
     AppRoutingModule,
+    HttpClientModule,
   ],
   providers: [ImageService, ImageFilterPipe],
   bootstrap: [AppComponent],
